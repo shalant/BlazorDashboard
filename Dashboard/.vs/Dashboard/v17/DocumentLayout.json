@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,20 +15,28 @@
       "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|c:\\users\\digdr\\documents\\coding\\blazordashboard\\dashboard\\dashboard\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67B0E486-D6F0-4D5B-BB3B-6CF6132E9AF4}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 363,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +54,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Dashboard\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\App.razor",
+              "RelativeToolTip": "Dashboard\\Components\\App.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T21:07:23.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Dashboard\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Dashboard\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T21:05:42.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Dashboard\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\_Imports.razor",
+              "RelativeToolTip": "Dashboard\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T21:03:41.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Layout\\MainLayout.razor.cs",
               "RelativeDocumentMoniker": "Dashboard\\Components\\Layout\\MainLayout.razor.cs",
@@ -55,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "Dashboard\\wwwroot\\app.css",
@@ -68,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Dashboard\\Components\\Layout\\NavMenu.razor",
@@ -81,41 +132,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Dashboard\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Dashboard\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-27T19:30:56.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Dashboard\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Dashboard\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAALcAAAASAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-27T19:20:43.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "Dashboard\\Components\\Pages\\Weather.razor",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\Components\\Pages\\Weather.razor",
               "RelativeToolTip": "Dashboard\\Components\\Pages\\Weather.razor",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T18:22:56.923Z"
+              "WhenOpened": "2024-06-27T18:22:56.923Z",
+              "EditorCaption": ""
             }
           ]
         }

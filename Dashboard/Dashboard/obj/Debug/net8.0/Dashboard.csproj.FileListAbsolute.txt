@@ -149,3 +149,4 @@ C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\ne
 C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\Dashboard.genruntimeconfig.cache
 C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\ref\Dashboard.dll
 C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\Dashboard.sourcelink.json
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\bin\Debug\net8.0\Blazor-ApexCharts.dll
