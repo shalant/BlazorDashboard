@@ -18,3 +18,16 @@
     --bs-nav-link-color: var(--mud-palette-primary) !important;
     --bs-nav-link-hover-color: var(--mud-palette-primary-darken) !important;
 }
+
+.wrap-layer {
+    position: relative;
+}
+
+.content-layer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    /* non-critical styles left out */
+}

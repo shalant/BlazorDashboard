@@ -1,12 +1,20 @@
 ﻿@inherits LayoutComponentBase
 
-<MudThemingProvider />
+@* <MudThemingProvider /> *@
+<MudThemingProvider @bind-IsDarkMode="@_IsDarkMode" Theme="MyCustomTheme" />
+
+
 <MudLayout>
     <MudAppBar Elevation="1">
         <MudText Typo="Typo.h5" Class="ml-3">@* Application *@</MudText>
         <MudText Typo="Typo.h5" Class="ml-3">
             <MudImage Src="../images/tackle_logo.svg" Height="75"></MudImage>
         </MudText>
+        <MudSwitch @bind-Value="@_IsDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
+
+        <MudToggleIconButton @bind-Toggled="@_IsDarkMode"
+                             Icon="@Icons.Material.Filled.DarkMode" Color="@Color.Default"
+                             ToggledIcon="@Icons.Material.Filled.WbSunny" ToggledColor="@Color.Default" />
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu />
@@ -16,11 +24,3 @@
     </MudMainContent>
 </MudLayout>
 
-@code {
-    private bool _drawerOpen = true;
-
-    private void DrawerToggle()
-    {
-        _drawerOpen = !_drawerOpen;
-    }
-}
