@@ -6,11 +6,17 @@ namespace Dashboard.Components.Layout;
 public partial class MainLayout
 {    
 
-    private bool _drawerOpen = true;
+    bool _drawerOpen = true;
     private bool _IsDarkMode;
-    //private MudTheme _theme = new();
+    private MudTheme _theme = new();
+    bool open = true;
 
-    private void DrawerToggle()
+	void ToggleDrawer()
+	{
+		open = !open;
+	}
+
+	private void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
     }
@@ -28,6 +34,11 @@ public partial class MainLayout
             Primary = Colors.Blue.Darken4,
             Secondary = Colors.Green.Accent4,
             AppbarBackground = Colors.Grey.Darken3
+        },
+        LayoutProperties = new LayoutProperties()
+        {
+            DrawerWidthLeft = "260px",
+            DrawerWidthRight = "300px"
         }
     };
 }

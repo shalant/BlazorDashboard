@@ -2,21 +2,26 @@
 
 @* <MudThemingProvider /> *@
 <MudThemingProvider @bind-IsDarkMode="@_IsDarkMode" Theme="MyCustomTheme" />
-
+<MudDialogProvider />
+<MudSnackbarProvider />
 
 <MudLayout>
     <MudAppBar Elevation="1">
-        <MudText Typo="Typo.h5" Class="ml-3">@* Application *@</MudText>
+        @* <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="MudBlazor.Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" /> *@
+        @* <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="MudBlazor.Color.Inherit" Edge="Edge.Start" OnClick="@ToggleDrawer" /> *@
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="MudBlazor.Color.Inherit" Edge="Edge.Start" OnClick="@DrawerToggle" />
         <MudText Typo="Typo.h5" Class="ml-3">
             <MudImage Src="../images/tackle_logo.svg" Height="100"></MudImage>
         </MudText>
-        <MudSwitch @bind-Value="@_IsDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
+        <MudSpacer />
+        <MudSwitch @Value="@_IsDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
 
         <MudToggleIconButton @bind-Toggled="@_IsDarkMode"
                              Icon="@Icons.Material.Filled.DarkMode" Color="@MudBlazor.Color.Default"
                              ToggledIcon="@Icons.Material.Filled.WbSunny" ToggledColor="@MudBlazor.Color.Default" />
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+    @* <MudDrawer @bind-Open="@open"  Elevation="2"> *@
         <NavMenu />
     </MudDrawer>
     <MudMainContent Class="mt-16 pa-4">
