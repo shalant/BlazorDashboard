@@ -10,12 +10,40 @@
 <MudText Typo="Typo.h3" GutterBottom="true">Counter</MudText>
 <MudText Class="mb-4">Current count: @currentCount</MudText>
 <MudButton Color="MudBlazor.Color.Primary" Variant="Variant.Filled" @onclick="IncrementCount">Click me</MudButton>
+<MudButton Variant="Variant.Filled" Color="MudBlazor.Color.Primary" >Get USDA Data</MudButton>
 
 @code {
     private int currentCount = 0;
+    public HttpClient httpClient = new HttpClient();
 
     private void IncrementCount()
     {
         currentCount++;
     }
+
+// 	using System.Net.Http.Headers;
+//     var client = new HttpClient();
+
+//     var request = new HttpRequestMessage
+//     {
+//         Method = HttpMethod.Get,
+//         RequestUri = new Uri("https://us-states.p.rapidapi.com/subdivisions/CT"),
+//         Headers =
+//         {
+//             { "x-rapidapi-key", "d0a001874dmshb993809de6fe686p13f52cjsn2899437b8f3e" },
+//             { "x-rapidapi-host", "us-states.p.rapidapi.com" },
+//         },
+//     };
+
+//     using (var response = await client.SendAsync(request))
+//     {
+// 	    response.EnsureSuccessStatusCode();
+// 	    var body = await response.Content.ReadAsStringAsync();
+//         Console.WriteLine(body);
+//     }
+
+//     public async Task FetchUsData()
+// {
+//     await httpClient.GetFromJsonAsync
+}
 }

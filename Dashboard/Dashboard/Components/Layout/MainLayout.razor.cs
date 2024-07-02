@@ -8,10 +8,12 @@ public partial class MainLayout
 
     bool _drawerOpen = true;
     private bool _IsDarkMode;
-    private MudTheme _theme = new();
     bool open = true;
 
-	void ToggleDrawer()
+    private MudTheme _theme = new();
+    private bool _isDarkMode;
+
+    void ToggleDrawer()
 	{
 		open = !open;
 	}
@@ -27,13 +29,18 @@ public partial class MainLayout
         {
             Primary = Colors.DeepPurple.Darken2,
             Secondary = Colors.Green.Accent4,
-            AppbarBackground = Colors.BlueGrey.Darken3
+            Tertiary = Colors.Red.Accent4,
+            AppbarBackground = Colors.BlueGrey.Darken3,
+            DrawerBackground = "rgba(240,240,240,0.7)"
         },
         PaletteDark = new PaletteDark()
         {
             Primary = Colors.Blue.Darken4,
             Secondary = Colors.Green.Accent4,
-            AppbarBackground = Colors.Grey.Darken3
+            Tertiary = Colors.Red.Accent4,
+            AppbarBackground = Colors.Grey.Darken3,
+            DrawerBackground = "rgba(240,240,240,0.7)"
+
         },
         LayoutProperties = new LayoutProperties()
         {

@@ -1,7 +1,8 @@
 ﻿@inherits LayoutComponentBase
 
 @* <MudThemingProvider /> *@
-<MudThemingProvider @bind-IsDarkMode="@_IsDarkMode" Theme="MyCustomTheme" />
+@* <MudThemingProvider @bind-IsDarkMode="@_IsDarkMode" Theme="MyCustomTheme" /> *@
+<MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
 <MudDialogProvider />
 <MudSnackbarProvider />
 
@@ -14,7 +15,8 @@
             <MudImage Src="../images/tackle_logo.svg" Height="100"></MudImage>
         </MudText>
         <MudSpacer />
-        <MudSwitch @Value="@_IsDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
+        @* <MudSwitch @Value="@_IsDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" /> *@
+        <MudSwitch @bind-Value="_isDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
 
         <MudToggleIconButton @bind-Toggled="@_IsDarkMode"
                              Icon="@Icons.Material.Filled.DarkMode" Color="@MudBlazor.Color.Default"

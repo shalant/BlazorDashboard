@@ -6,24 +6,30 @@
         <div class="content-layer">
             <MudGrid>
                 <MudItem xs="12" sm="6" md="4">
-                    <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                        <MudText>S & P Health Care Services Select Industry Index</MudText>
-                        <MudIcon Icon="@Icons.Material.Filled.ArrowUpward" ></MudIcon>
-                        <MudText>1.2%</MudText>
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;" >
+                        <MudText Align="MudBlazor.Align.Center" Typo="Typo.h6" Class="mt-5">S & P Health Care Services Select Industry Index</MudText>
+                        <MudText Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Secondary">
+                            <MudIcon Color="MudBlazor.Color.Secondary" Icon="@Icons.Material.Filled.ArrowUpward"></MudIcon>
+                            1.2%
+                        </MudText>
                     </MudPaper>
                 </MudItem>
                 <MudItem xs="12" sm="6" md="4">
                     <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                        <MudText>S & P RavenPack AI Index</MudText>
-                        <MudIcon Icon="@Icons.Material.Filled.ArrowDownward"></MudIcon>
-                        <MudText>2.2%</MudText>
+                        <MudText Align="MudBlazor.Align.Center" Typo="Typo.h6" Class="mt-5">S & P RavenPack AI Index</MudText>
+                        <MudText Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">
+                            <MudIcon Color="MudBlazor.Color.Tertiary" Icon="@Icons.Material.Filled.ArrowDownward"></MudIcon>
+                            2.2%
+                        </MudText>
                     </MudPaper>
                 </MudItem>
                 <MudItem xs="12" sm="12" md="4">
                     <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                        <MudText>Dow Jones</MudText>
-                        <MudIcon Icon="@Icons.Material.Filled.ArrowUpward"></MudIcon>
-                        <MudText>3.2%</MudText>
+                        <MudText Align="MudBlazor.Align.Center" Typo="Typo.h6" Class="mt-5">Dow Jones</MudText>
+                        <MudText Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Secondary">
+                            <MudIcon Color="MudBlazor.Color.Secondary" Icon="@Icons.Material.Filled.ArrowUpward"></MudIcon>
+                            3.2%
+                        </MudText>
                     </MudPaper>
                 </MudItem>
                 <MudItem xs="12" sm="6">
@@ -53,14 +59,14 @@
                                    Title=" Different Important Data">
 
                             <ApexPointSeries TItem="MyData"
-                                             Items="Data"
+                                             Items="Data2"
                                              Name="Net Profit"
                                              SeriesType="SeriesType.Line"
                                              XValue="e => e.Category"
                                              YValue="e=> e.NetProfit" />
 
                             <ApexPointSeries TItem="MyData"
-                                             Items="Data"
+                                             Items="Data2"
                                              Name="Revenue"
                                              SeriesType="SeriesType.Line"
                                              XValue="e => e.Category"
@@ -69,8 +75,8 @@
                     </MudPaper>
                 </MudItem>
                 <MudItem xs="12" sm="8">
-                    <MudPaper Elevation="2" Class="pa-4" Style="height: 400px;">
-                        <MudText>AI Usage by State</MudText>
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 500px;">
+                        <MudText Typo="Typo.h6" Align="MudBlazor.Align.Center">AI Usage by State</MudText>
                         <svg id="colorChangeMap" viewBox="150 0 560 400">
                             <g transform="scale(0.58785548118519790) translate(332.1650298692115, 0)">
                                 <!-- <g transform="scale(1) translate(565, 0)"> -->
@@ -551,7 +557,44 @@
                     </MudPaper>
                 </MudItem>
                 <MudItem xs="12" sm="4">
-                    <MudPaper Elevation="2" Class="pa-4" Style="height: 400px;"></MudPaper>
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 500px;">
+
+                    @* </MudPaper> *@
+                    @* <MudPaper Class="d-flex flex-column" Style="height:100%;" Outlined="true"> *@
+                        <MudList T="string">
+                            <MudListItem Icon="@Icons.Material.Filled.ContentCut">
+                                <div class="d-flex">
+                                    <MudText>Scissor - Big</MudText>
+                                    <MudText HtmlTag="span" Class="ml-auto">$5</MudText>
+                                </div>
+                            </MudListItem>
+                            <MudListItem Icon="@Icons.Material.Filled.AirplanemodeActive">
+                                <div class="d-flex">
+                                    <MudText>Model Airplane</MudText>
+                                    <MudText Class="ml-auto">$20</MudText>
+                                </div>
+                            </MudListItem>
+                            <MudListItem Icon="@Icons.Material.Filled.Create">
+                                <div class="d-flex">
+                                    <MudText>Plastic Glue</MudText>
+                                    <MudText Class="ml-auto">$12</MudText>
+                                </div>
+                            </MudListItem>
+                            <MudListItem Icon="@Icons.Material.Filled.ColorLens">
+                                <div class="d-flex">
+                                    <MudText>Color set - Modern planes</MudText>
+                                    <MudText Class="ml-auto">$16</MudText>
+                                </div>
+                            </MudListItem>
+                        </MudList>
+                        <div class="mt-auto">
+                            <MudDivider />
+                            <div class="d-flex pa-4">
+                                <MudText>Total:</MudText>
+                                <MudText Class="ml-auto"><b>$53</b></MudText>
+                            </div>
+                        </div>
+                    </MudPaper>
                 </MudItem>
                 
             </MudGrid>
@@ -706,6 +749,40 @@
     
 </MudContainer>
 
+@code {
+    private List<MyData> Data { get; set; } = new();
+    private List<MyData> Data2 { get; set; } = new();
+
+    protected override void OnInitialized()
+    {
+        Data.Add(new MyData { Category = "Jan", NetProfit = 12, Revenue = 33 });
+        Data.Add(new MyData { Category = "Feb", NetProfit = 43, Revenue = 42 });
+        Data.Add(new MyData { Category = "Mar", NetProfit = 112, Revenue = 23 });
+        Data2.Add(new MyData { Category = "Apr", NetProfit = 52, Revenue = 83 });
+        Data2.Add(new MyData { Category = "May", NetProfit = 42, Revenue = 42 });
+        Data2.Add(new MyData { Category = "Jun", NetProfit = 72, Revenue = 113 });
+
+
+    }
+
+    public class MyData
+    {
+        public string Category { get; set; }
+        public int NetProfit { get; set; }
+        public int Revenue { get; set; }
+    }
+
+    public class MyData2
+    {
+        public string Category { get; set; }
+        public int NetProfit { get; set; }
+        public int Revenue { get; set; }
+    }
+}
+
+
+
+
 
 
 @* <PageTitle>Home</PageTitle>
@@ -766,32 +843,3 @@
     </MudLink>
 </MudText>
  *@
-
-
-@code {
-    private List<MyData> Data { get; set; } = new();
-    private List<MyData2> Data2 { get; set; } = new();
-    protected override void OnInitialized()
-    {
-        Data.Add(new MyData { Category = "Jan", NetProfit = 12, Revenue = 33 });
-        Data.Add(new MyData { Category = "Feb", NetProfit = 43, Revenue = 42 });
-        Data.Add(new MyData { Category = "Mar", NetProfit = 112, Revenue = 23 });
-        Data2.Add(new MyData2 { Category = "Jan", NetProfit = 52, Revenue = 13 });
-        Data2.Add(new MyData2 { Category = "Feb", NetProfit = 42, Revenue = 42 });
-        Data2.Add(new MyData2 { Category = "Mar", NetProfit = 72, Revenue = 113 });
-    }
-
-    public class MyData
-    {
-        public string Category { get; set; }
-        public int NetProfit { get; set; }
-        public int Revenue { get; set; }
-    }
-
-    public class MyData2
-    {
-        public string Category { get; set; }
-        public int NetProfit { get; set; }
-        public int Revenue { get; set; }
-    }
-}
