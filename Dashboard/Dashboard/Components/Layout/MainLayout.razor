@@ -2,7 +2,8 @@
 
 @* <MudThemingProvider /> *@
 @* <MudThemingProvider @bind-IsDarkMode="@_IsDarkMode" Theme="MyCustomTheme" /> *@
-<MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
+<MudThemeProvider @bind-IsDarkMode="@_IsDarkMode" Theme="MyCustomTheme" />
+@* <MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" /> *@
 <MudDialogProvider />
 <MudSnackbarProvider />
 
@@ -16,7 +17,8 @@
         </MudText>
         <MudSpacer />
         @* <MudSwitch @Value="@_IsDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" /> *@
-        <MudSwitch @bind-Value="_isDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
+        @* <MudSwitch @bind-Value="_isDarkMode" Color="MudBlazor.Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" /> *@
+        <MudSwitch @bind-Value="@_isDarkMode" Color="MudBlazor.Color.Primary" Class="ma-1" T="bool" ThumbIcon="@Icons.Material.Filled.DarkMode" />
 
         <MudToggleIconButton @bind-Toggled="@_IsDarkMode"
                              Icon="@Icons.Material.Filled.DarkMode" Color="@MudBlazor.Color.Default"

@@ -1,5 +1,6 @@
 ﻿@page "/data"
 @rendermode InteractiveServer
+@* @inject HttpClient httpClient *@
 
 <MudPopoverProvider />
 <MudDialogProvider />
@@ -7,9 +8,37 @@
 
 <PageTitle>Data</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Weather forecast</MudText>
+<MudText Typo="Typo.h3" GutterBottom="true">Dynamic Data</MudText>
 <MudText Class="mb-8">This component demonstrates fetching data from the server.</MudText>
+@* <MudButton OnClick="FetchUsData()">Click to get data</MudButton> *@
+
 
 @code {
+// 	using System.Net.Http.Headers;
+// 	// var client = new HttpClient();
+// 	public HttpClient httpClient = new HttpClient();
+
+// 	var request = new HttpRequestMessage
+// 	{
+// 		Method = HttpMethod.Get,
+// 		RequestUri = new Uri("https://us-states.p.rapidapi.com/basic"),
+// 		Headers =
+// 	{
+// 		{ "x-rapidapi-key", "d0a001874dmshb993809de6fe686p13f52cjsn2899437b8f3e" },
+// 		{ "x-rapidapi-host", "us-states.p.rapidapi.com" },
+// 	},
+// 	};
+
+	
+
+// 	public async Task FetchUsData()
+// {
+// 	using (var response = await httpClient.SendAsync(request))
+// 	{
+// 		response.EnsureSuccessStatusCode();
+// 		var body = await response.Content.ReadAsStringAsync();
+// 		Console.WriteLine(body);
+// 	}
+// }
 
 }

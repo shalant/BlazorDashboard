@@ -7,9 +7,9 @@
     <UserSecretsId>aspnet-Dashboard-6f924a36-532a-4daf-bcc4-4ad4c4b8de70</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Content Remove="Components\Pages\Data.razor" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   
   
@@ -21,23 +21,17 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.*" />
     <PackageReference Include="MudBlazor" Version="6.*" />
   </ItemGroup>
-
-  
-  
-  <ItemGroup>
+    
+  <!--<ItemGroup>
     <UpToDateCheckInput Remove="Components\Pages\Data.razor" />
   </ItemGroup>
 
-  
-  
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Components\Pages\Data.razor" />
   </ItemGroup>
-
-  
   
   <ItemGroup>
     <None Include="Components\Pages\Data.razor" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 </Project>
