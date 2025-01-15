@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k1bgh1BSnmbYefp6BBkjlVxSGSeXtrdl2/BTK8iNgKw=",
+  "Hash": "hCDDXt6RlkmjLZnqifTzl1PD30obRTmmtqil7z5xcdk=",
   "Source": "Dashboard",
   "BasePath": "_content/Dashboard",
   "Mode": "Default",
@@ -31,6 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fipu15mg5j",
+      "Integrity": "We76yQ6BbUqy3OL7pB4AiChSOtAH/BdDsZ0Z+MzXvD0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\digdr\\.nuget\\packages\\blazor-apexcharts\\3.3.0\\staticwebassets\\css\\apexcharts.css"
@@ -50,6 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "nh847gm6bb",
+      "Integrity": "BXXnXWwhzTvkKRxGjgLhG6a2sU/NmlheCxaNugJSHtk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\digdr\\.nuget\\packages\\blazor-apexcharts\\3.3.0\\staticwebassets\\js\\apexcharts.esm.js"
@@ -69,15 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "wywktx6qxc",
+      "Integrity": "6CTT7ckuZ20VfnOqaf9JqxOAJQCS4a/ZDDUiSNfP5Cs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\digdr\\.nuget\\packages\\blazor-apexcharts\\3.3.0\\staticwebassets\\js\\blazor-apexcharts.js"
     },
     {
-      "Identity": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.20.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.20.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -88,15 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "qxbtukvcmg",
+      "Integrity": "rn8eNl+9uB529WfApYjM5fW3PddfCejXYcvfIgZsvkk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.20.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.20.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.20.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -107,9 +115,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "wh0nb2cuo3",
+      "Integrity": "RNWjaXK3LK0fumrRvkv1+QEnZZeFknI/3qKf6Wy++VM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.20.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
       "Identity": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\app.css",
@@ -117,15 +127,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\",
       "BasePath": "_content/Dashboard",
-      "RelativePath": "app.css",
+      "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "mt6bfuun8d",
+      "Integrity": "tsGArnIn9RuJanDKmqntCwzaBaGZCsGOg/HE8Nh2ZZo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -136,15 +148,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\",
       "BasePath": "_content/Dashboard",
-      "RelativePath": "bootstrap/bootstrap.min.css",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "kb3out9fl2",
+      "Integrity": "MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
@@ -155,15 +169,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\",
       "BasePath": "_content/Dashboard",
-      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "wrurlcuw7p",
+      "Integrity": "jJm07VkL1A9mdCv66/smd1yoA9iCc7h7nfn53AX38cc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
@@ -174,15 +190,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\",
       "BasePath": "_content/Dashboard",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "2jeq8efc6q",
+      "Integrity": "8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
@@ -193,18 +211,617 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\",
       "BasePath": "_content/Dashboard",
-      "RelativePath": "images/tackle_logo.svg",
+      "RelativePath": "images/tackle_logo#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "c53n2hnox0",
+      "Integrity": "sAWa+jKkLDBjY6Kyy/JT9yx5iqdYaB2ZDbdrqu1Q2jY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\tackle_logo.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Blazor-ApexCharts/css/apexcharts.css",
+      "AssetFile": "C:\\Users\\digdr\\.nuget\\packages\\blazor-apexcharts\\3.3.0\\staticwebassets\\css\\apexcharts.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"We76yQ6BbUqy3OL7pB4AiChSOtAH/BdDsZ0Z+MzXvD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Apr 2024 06:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-We76yQ6BbUqy3OL7pB4AiChSOtAH/BdDsZ0Z+MzXvD0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor-ApexCharts/js/apexcharts.esm.js",
+      "AssetFile": "C:\\Users\\digdr\\.nuget\\packages\\blazor-apexcharts\\3.3.0\\staticwebassets\\js\\apexcharts.esm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "608450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BXXnXWwhzTvkKRxGjgLhG6a2sU/NmlheCxaNugJSHtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Apr 2024 06:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BXXnXWwhzTvkKRxGjgLhG6a2sU/NmlheCxaNugJSHtk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor-ApexCharts/js/blazor-apexcharts.js",
+      "AssetFile": "C:\\Users\\digdr\\.nuget\\packages\\blazor-apexcharts\\3.3.0\\staticwebassets\\js\\blazor-apexcharts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6CTT7ckuZ20VfnOqaf9JqxOAJQCS4a/ZDDUiSNfP5Cs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Apr 2024 06:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6CTT7ckuZ20VfnOqaf9JqxOAJQCS4a/ZDDUiSNfP5Cs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "540935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rn8eNl+9uB529WfApYjM5fW3PddfCejXYcvfIgZsvkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jul 2024 18:06:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rn8eNl+9uB529WfApYjM5fW3PddfCejXYcvfIgZsvkk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\digdr\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RNWjaXK3LK0fumrRvkv1+QEnZZeFknI/3qKf6Wy++VM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jul 2024 18:06:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RNWjaXK3LK0fumrRvkv1+QEnZZeFknI/3qKf6Wy++VM="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsGArnIn9RuJanDKmqntCwzaBaGZCsGOg/HE8Nh2ZZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 20:01:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsGArnIn9RuJanDKmqntCwzaBaGZCsGOg/HE8Nh2ZZo="
+        }
+      ]
+    },
+    {
+      "Route": "app.mt6bfuun8d.css",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsGArnIn9RuJanDKmqntCwzaBaGZCsGOg/HE8Nh2ZZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 20:01:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mt6bfuun8d"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsGArnIn9RuJanDKmqntCwzaBaGZCsGOg/HE8Nh2ZZo="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 18:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJm07VkL1A9mdCv66/smd1yoA9iCc7h7nfn53AX38cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 18:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJm07VkL1A9mdCv66/smd1yoA9iCc7h7nfn53AX38cc="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.wrurlcuw7p.map",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJm07VkL1A9mdCv66/smd1yoA9iCc7h7nfn53AX38cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 18:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wrurlcuw7p"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJm07VkL1A9mdCv66/smd1yoA9iCc7h7nfn53AX38cc="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.kb3out9fl2.css",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 18:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kb3out9fl2"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.2jeq8efc6q.ico",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 18:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2jeq8efc6q"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 18:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA="
+        }
+      ]
+    },
+    {
+      "Route": "images/tackle_logo.c53n2hnox0.svg",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\images\\tackle_logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17784"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAWa+jKkLDBjY6Kyy/JT9yx5iqdYaB2ZDbdrqu1Q2jY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 19:27:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c53n2hnox0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tackle_logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAWa+jKkLDBjY6Kyy/JT9yx5iqdYaB2ZDbdrqu1Q2jY="
+        }
+      ]
+    },
+    {
+      "Route": "images/tackle_logo.svg",
+      "AssetFile": "C:\\Users\\digdr\\Documents\\coding\\BlazorDashboard\\Dashboard\\Dashboard\\wwwroot\\images\\tackle_logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17784"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAWa+jKkLDBjY6Kyy/JT9yx5iqdYaB2ZDbdrqu1Q2jY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jun 2024 19:27:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAWa+jKkLDBjY6Kyy/JT9yx5iqdYaB2ZDbdrqu1Q2jY="
+        }
+      ]
     }
   ]
 }

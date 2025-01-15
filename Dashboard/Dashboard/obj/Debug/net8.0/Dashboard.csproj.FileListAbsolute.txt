@@ -150,3 +150,11 @@ C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\ne
 C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\Dashboard.pdb
 C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\Dashboard.genruntimeconfig.cache
 C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\ref\Dashboard.dll
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\bin\Debug\net8.0\Dashboard.staticwebassets.endpoints.json
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\staticwebassets\msbuild.Dashboard.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\digdr\Documents\coding\BlazorDashboard\Dashboard\Dashboard\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
