@@ -29,7 +29,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/hello:latest
-            docker stop hello || true
-            docker rm hello || true
-            docker run -d -p 80:80 --name hello ${{ secrets.DOCKERHUB_USERNAME }}/hello:latest
+            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/blazordashboard:latest
+            docker stop blazordashboard || true
+            docker rm blazordashboard || true
+            docker run -d -p 80:80 --name blazordashboard ${{ secrets.DOCKERHUB_USERNAME }}/blazordashboard:latest
