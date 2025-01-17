@@ -1,35 +1,60 @@
-name: Backend Deployment
-
+name: Build & Deploy
 on:
   push:
-    branches: ["main"]
+    branches: [main]
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Deploy Blazor Dashboard
+        uses: appleboy/ssh-action/v1.2.0
+        with: 
+          host: ${{secrets.SSH_HOST}}
+          key: ${{secrets.SSH_KEY}}
+          username: ${{secrets.SSH_USERNAME}}
 
-      - name: Build the Docker image
-        working-directory: .
-        run: docker build . -t dougrosenbergdev/blazordashboard:latest
-
-      - name: Log into Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME}}
-          password: ${{ secrets.DOCKERHUB_TOKEN}}
-        
-      - name: Push the images to Docker Hub
-        run: docker image push dougrosenbergdev/blazordashboard
-
-      - name: Pull the image to VM
-        uses: appleboy/ssh-action@v1.2.0
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_KEY }}
           script: |
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/hello:latest
-            docker stop hello || true
-            docker rm hello || true
-            docker run -d -p 80:80 --name hello ${{ secrets.DOCKERHUB_USERNAME }}/hello:latest
+            mkdir test
+            cd test
+            git clone git@github.com:shalant/BlazorDashboard.git
+            echo 'Deployment successful to digital ocean'
+
+
+
+
+# name: Backend Deployment
+
+# on:
+#   push:
+#     branches: ["main"]
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+
+#       - name: Build the Docker image
+#         working-directory: .
+#         run: docker build . -t dougrosenbergdev/blazordashboard:latest
+
+#       - name: Log into Docker Hub
+#         uses: docker/login-action@v2
+#         with:
+#           username: ${{ secrets.DOCKERHUB_USERNAME}}
+#           password: ${{ secrets.DOCKERHUB_TOKEN}}
+        
+#       - name: Push the images to Docker Hub
+#         run: docker image push dougrosenbergdev/blazordashboard
+
+#       - name: Pull the image to VM
+#         uses: appleboy/ssh-action@v1.2.0
+#         with:
+#           host: ${{ secrets.SSH_HOST }}
+#           username: ${{ secrets.SSH_USERNAME }}
+#           password: ${{ secrets.SSH_KEY }}
+#           script: |
+#             docker pull ${{ secrets.DOCKERHUB_USERNAME }}/hello:latest
+#             docker stop hello || true
+#             docker rm hello || true
+#             docker run -d -p 80:80 --name hello ${{ secrets.DOCKERHUB_USERNAME }}/hello:latest
