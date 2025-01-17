@@ -48,7 +48,7 @@ jobs:
         run: docker image push dougrosenbergdev/blazordashboard
 
       - name: Pull the image to VM
-        uses: appleboy/ssh-action@v1.2.0
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
