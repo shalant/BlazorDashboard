@@ -33,3 +33,5 @@ jobs:
             docker stop hello || true
             docker rm hello || true
             docker run -d -p 80:80 --name hello ${{ secrets.DOCKERHUB_USERNAME }}/hello:latest
+
+# test
