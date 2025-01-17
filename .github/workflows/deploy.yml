@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN}}
         
       - name: Push the images to Docker Hub
-        run: docker push dougrosenbergdev/blazordashboard
+        run: docker image push dougrosenbergdev/blazordashboard
 
       - name: Pull the image to VM
         uses: appleboy/ssh-action@v1.0.0
